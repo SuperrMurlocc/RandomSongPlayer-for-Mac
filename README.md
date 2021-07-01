@@ -1,3 +1,7 @@
+# Play random song from your AppleMusic playlist
+Feel like listening to something but not quite sure what? Simply paste this into the [Terminal](https://support.apple.com/pl-pl/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac) or save as shell script for later use!
+
+### randomSongPlayer.zsh
 ```zsh
 function play_music {
   numberOfPlaylists=$(osascript -e "
